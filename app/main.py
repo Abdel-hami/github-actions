@@ -13,6 +13,7 @@ def return_backwards_string(random_string):
 
 @app.route("/get-mode")
 def get_mode():
+    # nothinnnnnnng
     return os.getenv("MODE")
 
 
