@@ -10,7 +10,7 @@ class TestMain(unittest.TestCase):
 
         self.assertEqual(random_string_reversed, return_backwards_string(random_string))
     def test_get_mode(self):
-        self.assertEqual(os.environ['MODE'], get_mode())
+        self.assertEqual("test", get_mode())
 
 
 if __name__ == '__main__':
